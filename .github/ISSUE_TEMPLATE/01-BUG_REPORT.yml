@@ -3,7 +3,7 @@ description: File a bug report.
 title: "[Bug]: "
 labels: ["bug"]
 body:
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to file a bug report!
