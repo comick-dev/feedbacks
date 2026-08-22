@@ -7,6 +7,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time for requesting a new feature!
+          - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check
+      description: Please check existing issues before submitting this request.
+      options:
+        - label: I have searched existing issues and couldn't find a duplicate.
+          required: true
   - type: textarea
     id: what-is-need
     attributes:
