@@ -29,6 +29,7 @@ body:
         - iPhone (Browser)
         - iPhone (PWA)
         - Tablet (Please mention which and what type in Additional Context)
+        - Other Device (Please mention which and what type in Additional Context)
       default: 0
     validations:
       required: true
