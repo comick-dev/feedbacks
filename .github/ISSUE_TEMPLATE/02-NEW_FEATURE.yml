@@ -1,0 +1,32 @@
+name: New Feature Request
+description: File a request for a new feature
+title: "[New Feature]: "
+labels: ["new feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time for requesting a new feature!
+  - type: textarea
+    id: what-is-need
+    attributes:
+      label: What new feature is needed and WHY?
+      description: Describe what the new feature will do in detail and also why should it be added.
+      placeholder: Describe the new feature and why should it be added.
+    validations:
+      required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload media (Screenshots / Videos)
+      description: Please add screenshots or videos to help us understand the request. (You can also add media in the above area!)
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information needed to be given?
+      placeholder: "Add relevant information, if any"
+    validations:
+      required: false

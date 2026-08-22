@@ -1,0 +1,70 @@
+name: New Enhancement Request
+description: File a request for updating a existing feature.
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time for requesting a update on a existing feature!
+  - type: dropdown
+    id: device-type
+    attributes:
+      label: Device Type
+      description: Which device are you using to view our website?
+      options:
+        - Computer (Browser)
+        - Computer (PWA)
+        - Andriod Phone (Browser)
+        - Andriod Phone (PWA)
+        - iPhone (Browser)
+        - iPhone (PWA)
+        - Tablet (Please mention which and what type in Additional Context)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: existing-feature-update
+    attributes:
+      label: Which existing feature is to be updated? 
+      description: Select the feature which is to be updated
+      options:
+        - UI
+        - Image
+        - PWA
+        - Account
+        - Search
+        - Notifications
+        - Community Contributions
+        - Custom Lists
+        - Membership
+        - Themes
+        - System Bot
+        - Automatic Chapter Scraping Sites
+        - Admin Area (Only for trusted)
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: update-why
+    attributes:
+      label: What new update is needed for the selected feature and WHY?
+      description: Describe the new update needed for the selected feature and why should it be added.
+      placeholder: Describe the new update and why should it be added.
+    validations:
+      required: true
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload media (Screenshots / Videos)
+      description: Please add screenshots or videos to help us understand the request. (You can also add media in the above area!)
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information needed to be given?
+      placeholder: "Add relevant information, if any"
+    validations:
+      required: false

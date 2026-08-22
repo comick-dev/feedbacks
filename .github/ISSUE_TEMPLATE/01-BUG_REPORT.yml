@@ -1,0 +1,62 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report! 
+  - type: dropdown
+    id: device-type
+    attributes:
+      label: Device Type
+      description: Which device are you using to view our website?
+      options:
+        - Computer (Browser)
+        - Computer (PWA)
+        - Andriod Phone (Browser)
+        - Andriod Phone (PWA)
+        - iPhone (Browser)
+        - iPhone (PWA)
+        - Tablet (Please mention which and what type in Additional Context)
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. What did you expect to happen, and what actually happened?
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can our developers trigger this issue on our test environments?
+      placeholder: Please give us detailed information here so it can be fixed faster!
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output (For Advanced Users from Console or Network Tab in browsers.)
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Upload media (Screenshots / Videos)
+      description: Please add screenshots or videos to help explain your problem.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information needed to be given?
+      placeholder: "Add relevant information, if any here like: It is broken from past 2 days. Etc;"
+    validations:
+      required: false
