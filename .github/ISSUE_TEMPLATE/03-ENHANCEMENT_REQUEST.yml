@@ -3,7 +3,7 @@ description: File a request for updating a existing feature.
 title: "[Enhancement]: "
 labels: ["enhancement"]
 body:
-   - type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time for requesting a new feature!
