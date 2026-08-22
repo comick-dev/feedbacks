@@ -7,7 +7,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time for requesting a new feature!
-          - type: checkboxes
+
+  - type: checkboxes
     id: duplicate-check
     attributes:
       label: Duplicate Check
@@ -15,6 +16,7 @@ body:
       options:
         - label: I have searched existing issues and couldn't find a duplicate.
           required: true
+
   - type: textarea
     id: what-is-need
     attributes:
