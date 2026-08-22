@@ -3,11 +3,12 @@ description: File a request for updating a existing feature.
 title: "[Enhancement]: "
 labels: ["enhancement"]
 body:
-  - type: markdown
+   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time for requesting a update on a existing feature!
-          - type: checkboxes
+        Thanks for taking the time for requesting a new feature!
+
+  - type: checkboxes
     id: duplicate-check
     attributes:
       label: Duplicate Check
