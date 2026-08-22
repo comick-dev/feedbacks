@@ -20,6 +20,7 @@ body:
         - iPhone (Browser)
         - iPhone (PWA)
         - Tablet (Please mention which and what type in Additional Context)
+        - All Platforms (Only to be used for global features!)
       default: 0
     validations:
       required: true
