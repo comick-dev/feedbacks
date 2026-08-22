@@ -7,6 +7,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to file a bug report! 
+          - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check
+      description: Please check existing issues before submitting this report.
+      options:
+        - label: I have searched existing issues and couldn't find a duplicate.
+          required: true
   - type: dropdown
     id: device-type
     attributes:
