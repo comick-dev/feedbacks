@@ -8,6 +8,7 @@ Use this repository to report bugs or suggest improvements. GitHub is the recomm
 
 - Search existing issues to avoid duplicates.
 - Check the [Roadmap](https://app.notion.com/p/meotimdihia/c76b651424df4d46837e4710301340bd?v=c152efba2ae84bb6b0c2a615539d83e2) to see if the suggestion has already been reported or is already planned.
+- Read the [Contributing Guidelines](./CONTRIBUTING.md) before opening an issue.
 - Keep each issue focused on one topic.
 - For bugs, include the page URL, reproduction steps, expected result, and screenshots when useful.
 - For suggestions, explain the problem and what a good result would look like.
