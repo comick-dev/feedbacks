@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time for requesting a new feature!
+         Thanks for taking the time to suggest an improvement to Comick!
 
   - type: checkboxes
     id: duplicate-check
@@ -76,5 +76,13 @@ body:
       label: Additional Context
       description: Any other information needed to be given?
       placeholder: "Add relevant information, if any"
+    validations:
+      required: false
+  - type: input
+    id: discord
+    attributes:
+      label: Discord username
+      description: Optional — add your Discord username if you're comfortable being contacted about this issue.
+      placeholder: "@username"
     validations:
       required: false
