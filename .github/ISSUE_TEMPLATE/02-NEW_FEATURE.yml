@@ -40,3 +40,11 @@ body:
       placeholder: "Add relevant information, if any"
     validations:
       required: false
+  - type: input
+    id: discord
+    attributes:
+      label: Discord username
+      description: Optional — add your Discord username if you're comfortable being contacted about this issue.
+      placeholder: "@username"
+    validations:
+      required: false
