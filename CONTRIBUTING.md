@@ -22,9 +22,8 @@ Some commonly useful labels include:
 * **Custom List**
 * **UI**
 * **Search/Filter**
-* **Merge**
 
-There are also other labels available. If an issue does not fit into one of the categories above, it may use the **Unique** label.
+There are also other labels available. If an issue does not fit into one of the categories above, it may use the "**No special label**" label or 
 
 ### How to Use the Filters
 
