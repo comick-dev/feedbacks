@@ -37,6 +37,18 @@ This repository is used for reporting bugs and suggesting improvements to Comick
 * Avoid creating duplicate issues just to draw attention to an existing request. Add a comment or reaction instead.
 * Issues may be closed, merged, or redirected when appropriate.
 
+## How to avoid making duplicates issues
+
+To help you avoid it we made two things:
+- created Label: Add Scraping, Admin tool, Custom list, UI, Search/Filter (there are also other labels but those are the most helpfull)
+- But when issue doesn't fall under any of those it gets added Igor72947 as assignee (will change it into Label when I think of good name for it, tag me on discord if you have idea igor2029)
+
+To use them you need:
+1. Click Search bar
+2. Press space
+3. choose option that you want to Filter by
+4. You can Filter more that one thing but to do that you need to press space again
+   
 ### Thank you!
 
 Thanks for taking the time to read these guidelines and help make Comick better. Your feedback and suggestions are appreciated!
