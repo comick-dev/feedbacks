@@ -11,6 +11,33 @@ This repository is used for reporting bugs and suggesting improvements to Comick
 * Keep each issue focused on one topic.
 * Choose the appropriate issue template.
 
+## How to Avoid Duplicate Issues
+
+To help you find similar issues, you can use GitHub's labels and filters.
+
+Some commonly useful labels include:
+
+* **Add Scraping**
+* **Admin Tool**
+* **Custom List**
+* **UI**
+* **Search/Filter**
+
+There are also other labels available. If an issue does not fit into one of the categories above, it may use the **Unique** label.
+
+### How to Use the Filters
+
+1. Click the **Search** bar.<img width="1080" height="936" alt="image" src="https://github.com/user-attachments/assets/bdd57409-2489-4ccd-8181-37fbad6ea3fc" />
+
+
+2. Press **Space**.
+
+3. Choose the option you want to filter by, such as **Label** or **Assignee**.
+
+4. You can combine multiple filters. To add another filter, press **Space** again and choose the next option.
+
+Please search existing issues before creating a new one. This helps prevent duplicate requests and keeps the issue tracker organized.
+
 ## Bug reports
 
 * Include the affected page URL.
@@ -37,18 +64,6 @@ This repository is used for reporting bugs and suggesting improvements to Comick
 * Avoid creating duplicate issues just to draw attention to an existing request. Add a comment or reaction instead.
 * Issues may be closed, merged, or redirected when appropriate.
 
-## How to avoid making duplicates issues
-
-To help you avoid it we made two things:
-- created Label: Add Scraping, Admin tool, Custom list, UI, Search/Filter (there are also other labels but those are the most helpfull onces)
-- If your Issue doesn't fall under any of those labels above it will have lable named "Unique lable"
-
-To use them you need:
-1. Click Search bar
-2. Press space
-3. choose option that you want to Filter by
-4. You can Filter more that one thing but to do that you need to press space again
-   
 ### Thank you!
 
 Thanks for taking the time to read these guidelines and help make Comick better. Your feedback and suggestions are appreciated!
