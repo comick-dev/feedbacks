@@ -12,6 +12,20 @@ Use this repository to report bugs or suggest improvements. GitHub is the recomm
 - Keep each issue focused on one topic.
 - For bugs, include the page URL, reproduction steps, expected result, and screenshots when useful.
 - For suggestions, explain the problem and what a good result would look like.
+
+## How to avoid making duplicates issues
+
+To help you avoid it we made two things:
+- created Label: Add Scraping, Admin tool, Custom list, UI, Search/Filter (there are also other labels but those are the most helpfull)
+- But when issue doesn't fall under any of those it gets added () as assignee
+
+To use them you need:
+1. Click Search bar
+2. Press space
+3. choose option that you want to Filter by
+4. You can Filter more that one thing but to do that you need to press space again
+
+
   
 ## Discord
 
