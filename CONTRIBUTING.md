@@ -41,7 +41,7 @@ This repository is used for reporting bugs and suggesting improvements to Comick
 
 To help you avoid it we made two things:
 - created Label: Add Scraping, Admin tool, Custom list, UI, Search/Filter (there are also other labels but those are the most helpfull)
-- But when issue doesn't fall under any of those it gets added Igor72947 as assignee (will change it into Label when I think of good name for it, tag me on discord if you have idea igor2029)
+- If your Issue doesn't fall under any of those labels above it will have lable named "Unique lable"
 
 To use them you need:
 1. Click Search bar
