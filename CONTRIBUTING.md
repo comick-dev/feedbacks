@@ -40,7 +40,7 @@ This repository is used for reporting bugs and suggesting improvements to Comick
 ## How to avoid making duplicates issues
 
 To help you avoid it we made two things:
-- created Label: Add Scraping, Admin tool, Custom list, UI, Search/Filter (there are also other labels but those are the most helpfull)
+- created Label: Add Scraping, Admin tool, Custom list, UI, Search/Filter (there are also other labels but those are the most helpfull onces)
 - If your Issue doesn't fall under any of those labels above it will have lable named "Unique lable"
 
 To use them you need:
