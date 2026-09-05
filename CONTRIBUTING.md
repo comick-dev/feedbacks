@@ -23,7 +23,7 @@ Some commonly useful labels include:
 * **UI**
 * **Search/Filter**
 
-There are also other labels available. If an issue does not fit into one of the categories above, it may use the "**No special label**" label or have Igor72947 as assignee
+There are also other labels available. If an issue does not fit into one of the categories above, it may use the "**No special label**" label or have Igor72947 as assignee (if you don't see that label it is because somone deleted it so use assignee)
 
 ### How to Use the Filters
 
