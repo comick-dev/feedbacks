@@ -23,7 +23,7 @@ Some commonly useful labels include:
 * **UI**
 * **Search/Filter**
 
-If an issue does not have lable that says what it is about it will have Igor72947 as assignee (by lable that says what issue is about I mean lable like those above)
+If an issue does not have label that says what it is about it will have Igor72947 as assignee (by label that says what issue is about I mean label like those above)
 
 ### How to Use the Filters
 
