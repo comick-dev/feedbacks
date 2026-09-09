@@ -61,7 +61,7 @@ body:
       label: Upload media (Screenshots / Videos)
       description: Please add screenshots or videos to help explain your problem.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional-context
     attributes:
