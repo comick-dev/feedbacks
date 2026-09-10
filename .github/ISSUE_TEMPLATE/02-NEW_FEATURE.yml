@@ -1,12 +1,12 @@
 name: New Feature Request
-description: File a request for a new feature
+description: File a request for a new feature.
 title: "[New Feature]: "
-labels: ["new feature"]
+labels: ["New Feature"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time for requesting a new feature!
+        Thanks for taking the time to request a new feature!
 
   - type: checkboxes
     id: duplicate-check
@@ -18,20 +18,22 @@ body:
           required: true
 
   - type: textarea
-    id: what-is-need
+    id: what-is-needed
     attributes:
       label: What new feature is needed and WHY?
-      description: Describe what the new feature will do in detail and also why should it be added.
-      placeholder: Describe the new feature and why should it be added.
+      description: Describe what the new feature would do and why it should be added.
+      placeholder: Describe the new feature and why it should be added.
     validations:
       required: true
-  - type: upload
+
+  - type: textarea
     id: screenshots
     attributes:
       label: Upload media (Screenshots / Videos)
-      description: Please add screenshots or videos to help us understand the request. (You can also add media in the above area!)
+      description: Please add screenshots or videos to help us understand the request. You can also add media in the description above.
     validations:
       required: false
+
   - type: textarea
     id: additional-context
     attributes:
@@ -40,6 +42,7 @@ body:
       placeholder: "Add relevant information, if any"
     validations:
       required: false
+
   - type: input
     id: discord
     attributes:
