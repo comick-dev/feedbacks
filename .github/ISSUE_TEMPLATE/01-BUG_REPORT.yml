@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug"]
+labels: ["Bug"]
 body:
   - type: markdown
     attributes:
@@ -16,6 +16,7 @@ body:
       options:
         - label: I have searched existing issues and couldn't find a duplicate.
           required: true
+
   - type: dropdown
     id: device-type
     attributes:
@@ -24,8 +25,8 @@ body:
       options:
         - Computer (Browser)
         - Computer (PWA)
-        - Andriod Phone (Browser)
-        - Andriod Phone (PWA)
+        - Android Phone (Browser)
+        - Android Phone (PWA)
         - iPhone (Browser)
         - iPhone (PWA)
         - Tablet (Please mention which and what type in Additional Context)
@@ -33,6 +34,7 @@ body:
       default: 0
     validations:
       required: true
+
   - type: textarea
     id: what-happened
     attributes:
@@ -41,27 +43,31 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to Reproduce
-      description: How can our developers trigger this issue on our test environments?
+      description: Please describe the steps needed to reproduce the problem.
       placeholder: Please give us detailed information here so it can be fixed faster!
     validations:
       required: true
+
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output (For Advanced Users from Console or Network Tab in browsers.)
+      label: Relevant log output (For advanced users)
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: upload
+
+  - type: textarea
     id: screenshots
     attributes:
       label: Upload media (Screenshots / Videos)
       description: Please add screenshots or videos to help explain your problem.
     validations:
       required: false
+
   - type: textarea
     id: additional-context
     attributes:
@@ -70,6 +76,7 @@ body:
       placeholder: "Add relevant information, if any here like: It is broken from past 2 days. Etc;"
     validations:
       required: false
+
   - type: input
     id: discord
     attributes:
