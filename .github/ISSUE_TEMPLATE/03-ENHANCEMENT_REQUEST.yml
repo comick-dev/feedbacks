@@ -1,12 +1,12 @@
 name: New Enhancement Request
-description: File a request for updating a existing feature.
+description: File a request for updating an existing feature.
 title: "[Enhancement]: "
-labels: ["enhancement"]
+labels: ["Enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-         Thanks for taking the time to suggest an improvement to Comick!
+        Thanks for taking the time to suggest an improvement to Comick!
 
   - type: checkboxes
     id: duplicate-check
@@ -16,6 +16,7 @@ body:
       options:
         - label: I have searched existing issues and couldn't find a duplicate.
           required: true
+
   - type: dropdown
     id: device-type
     attributes:
@@ -24,8 +25,8 @@ body:
       options:
         - Computer (Browser)
         - Computer (PWA)
-        - Andriod Phone (Browser)
-        - Andriod Phone (PWA)
+        - Android Phone (Browser)
+        - Android Phone (PWA)
         - iPhone (Browser)
         - iPhone (PWA)
         - Tablet (Please mention which and what type in Additional Context)
@@ -33,11 +34,12 @@ body:
       default: 0
     validations:
       required: true
+
   - type: dropdown
     id: existing-feature-update
     attributes:
-      label: Which existing feature is to be updated? 
-      description: Select the feature which is to be updated
+      label: Which existing feature is to be updated?
+      description: Select the feature that is being updated.
       options:
         - UI
         - Image
@@ -55,21 +57,24 @@ body:
       default: 0
     validations:
       required: true
+
   - type: textarea
     id: update-why
     attributes:
       label: What new update is needed for the selected feature and WHY?
-      description: Describe the new update needed for the selected feature and why should it be added.
-      placeholder: Describe the new update and why should it be added.
+      description: Describe the update needed for the selected feature and why it should be added.
+      placeholder: Describe the update and why it should be added.
     validations:
       required: true
-  - type: upload
+
+  - type: textarea
     id: screenshots
     attributes:
       label: Upload media (Screenshots / Videos)
-      description: Please add screenshots or videos to help us understand the request. (You can also add media in the above area!)
+      description: Please add screenshots or videos to help us understand the request. You can also add media in the description above.
     validations:
       required: false
+
   - type: textarea
     id: additional-context
     attributes:
@@ -78,6 +83,7 @@ body:
       placeholder: "Add relevant information, if any"
     validations:
       required: false
+
   - type: input
     id: discord
     attributes:
