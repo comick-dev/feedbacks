@@ -52,6 +52,7 @@ body:
         - Membership
         - Themes
         - System Bot
+        - API / OAuth
         - Automatic Chapter Scraping Sites
         - Admin Area (Only for trusted)
       default: 0
