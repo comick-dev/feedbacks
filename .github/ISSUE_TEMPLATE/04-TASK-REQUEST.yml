@@ -1,0 +1,60 @@
+name: Task request
+description: File a Task request
+title: "[Task]: "
+labels: ["Task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request Task.
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check
+      description: Please check existing issues before submitting this request.
+      options:
+        - label: I have searched existing issues and couldn't find a duplicate.
+          required: true
+
+  - type: checkboxes
+    id: discord-check
+    attributes:
+      label: Discord check
+      description: Please ask on discord if staff can do it before submitting this request.
+      options:
+        - label: I have asked on discord
+          required: true
+
+  - type: dropdown
+    id: device-type
+    attributes:
+      label: What is task about?
+      description: Select the type of task.
+      options:
+        - Other
+        - Merge
+        - Add Group
+        - Anime schedule
+        - Change Group description
+        - Scraping
+        - Question (better ask directly)
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-is-needed
+    attributes:
+      label: What Task needs to be done?
+      description: Describe what Task needs to be done.
+      placeholder: Describe the Task.
+    validations:
+      required: true
+
+  - type: input
+    id: discord
+    attributes:
+      label: Discord username
+      description: Optional — add your Discord username if you're comfortable being contacted about this issue.
+      placeholder: "@username"
