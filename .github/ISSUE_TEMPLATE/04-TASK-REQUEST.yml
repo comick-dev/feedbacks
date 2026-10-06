@@ -1,12 +1,12 @@
-name: Task request
-description: File a Task request
+name: Task Request
+description: File a task request.
 title: "[Task]: "
 labels: ["Task"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to request Task.
+        Thanks for taking the time to submit a task request!
 
   - type: checkboxes
     id: duplicate-check
@@ -20,25 +20,24 @@ body:
   - type: checkboxes
     id: discord-check
     attributes:
-      label: Discord check
-      description: Please ask on discord if staff can do it before submitting this request.
+      label: Discord Check
+      description: Please ask on Discord if staff can handle the task before submitting this request.
       options:
-        - label: I have asked on discord
+        - label: I have asked on Discord.
           required: true
 
   - type: dropdown
-    id: device-type
+    id: task-type
     attributes:
-      label: What is task about?
+      label: What is the task about?
       description: Select the type of task.
       options:
         - Other
         - Merge
         - Add Group
-        - Anime schedule
-        - Change Group description
-        - Scraping
-        - Question (better ask directly)
+        - Anime Schedule
+        - Change Group Description
+        - Scraping Site Maintenance
       default: 0
     validations:
       required: true
@@ -46,9 +45,9 @@ body:
   - type: textarea
     id: what-is-needed
     attributes:
-      label: What Task needs to be done?
-      description: Describe what Task needs to be done.
-      placeholder: Describe the Task.
+      label: What task needs to be done?
+      description: Describe what needs to be done.
+      placeholder: Describe the task.
     validations:
       required: true
 
@@ -58,3 +57,5 @@ body:
       label: Discord username
       description: Optional — add your Discord username if you're comfortable being contacted about this issue.
       placeholder: "@username"
+    validations:
+      required: false
