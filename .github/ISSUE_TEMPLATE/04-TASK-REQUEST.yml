@@ -35,7 +35,6 @@ body:
         - Other
         - Merge
         - Add Group
-        - Anime Schedule
         - Change Group Description
         - Scraping Site Maintenance
       default: 0
