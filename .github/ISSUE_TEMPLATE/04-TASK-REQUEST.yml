@@ -32,7 +32,6 @@ body:
       label: What is the task about?
       description: Select the type of task.
       options:
-        - Other
         - Merge
         - Add Group
         - Change Group Description
