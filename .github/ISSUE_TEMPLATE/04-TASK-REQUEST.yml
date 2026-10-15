@@ -35,7 +35,7 @@ body:
         - Merge
         - Add Group
         - Change Group Description
-        - Scraping Site Maintenance (everything about scraping)
+        - Scraping Site
       default: 0
     validations:
       required: true
