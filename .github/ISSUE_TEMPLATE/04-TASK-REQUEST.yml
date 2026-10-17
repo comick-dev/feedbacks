@@ -34,7 +34,6 @@ body:
       options:
         - Merge
         - Add Group
-        - Change Group Description
         - Scraping Site
       default: 0
     validations:
