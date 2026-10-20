@@ -55,7 +55,7 @@ body:
         - API / OAuth
         - Automatic Chapter Scraping Sites
         - Admin Area (Only for trusted)
-        - Upload tool (Chapters, Photos, edits e.t.c.)
+        - Upload tool (Chapters, Photos, edits requests e.t.c.)
       default: 0
     validations:
       required: true
