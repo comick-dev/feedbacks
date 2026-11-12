@@ -34,6 +34,7 @@ body:
       options:
         - Merge
         - Scraping Site
+        - Chapter numbering
         - Other
       default: 0
     validations:
