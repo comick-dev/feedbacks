@@ -25,6 +25,9 @@ Some commonly useful labels include:
 
 If an issue does not have label that says what it is about it will have Igor72947 as assignee (by label that says what issue is about I mean label like those above)
 
+Also check this issue summary:
+https://github.com/orgs/comick-dev/discussions/443
+
 ### How to Use the Filters
 
 1. Click the **Search** bar.<img width="1080" height="936" alt="image" src="https://github.com/user-attachments/assets/bdd57409-2489-4ccd-8181-37fbad6ea3fc" />
